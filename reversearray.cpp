@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    //1.entering size of an array
+    //1.entering size of an array.
     int n;
     cout<<"enter size of an array:";
     cin>>n;
@@ -10,7 +10,7 @@ int main()
     //2.declaring array.
     int a[n];
 
-    //3.now entering elements in the array
+    //3.now entering elements in the array.
     for (int i=0;i<n;i++)
     {
         cout<<"enter the elements:";
@@ -18,7 +18,7 @@ int main()
     }
     cout<<endl;
 
-    //4. logic for revering the entered array
+    //4. logic for revering the entered array.
 
     int start_array =0;
     int end_array   =n-1;
@@ -29,7 +29,7 @@ int main()
         start_array++;
         end_array--;
     }
-    // 5. now printing the output
+    // 5. now printing the output.
     for(int i=0;i<n;i++)
     {
         cout<<a[i]<<" ";
