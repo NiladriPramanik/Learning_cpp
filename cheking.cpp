@@ -1,3 +1,5 @@
+//checking whether the input is lower case alphabet,upper case alphabet or a numeric value
+
 #include<iostream>
 using namespace std ;
 
