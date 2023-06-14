@@ -1,0 +1,16 @@
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int fahrenheit = 0;
+    
+    while (fahrenheit <= 100) 
+   {
+        double celsius = (fahrenheit - 32) * 5 / 9.0;
+        cout << fahrenheit << "°F = " << celsius << "°C" << endl;
+        fahrenheit = fahrenheit + 10;
+    }
+    
+}
