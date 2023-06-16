@@ -20,7 +20,7 @@ int main()
        int col=1;
        while(col<=row)
        {
-        cout<<row;
+        cout<<"*";
         col=col+1;
        }
        cout<<endl;
